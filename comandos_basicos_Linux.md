@@ -8,7 +8,7 @@ En sistemas operativos basados en Linux, como Ubuntu, Debian, CentOS y otros, el
 
 # Comandos:
  
- 1.  **Comando "mkdir" en Linux: Crear Directorios.**
+ 1.  #### Comando "mkdir" en Linux: Crear Directorios. 
 
  El comando "mkdir" (abreviatura de "make directory") en sistemas Linux es utilizado para crear uno o varios directorios nuevos en una ubicación específica del sistema de archivos. Este comando es útil para organizar archivos y facilitar la estructura de carpetas.
 
@@ -18,7 +18,7 @@ En sistemas operativos basados en Linux, como Ubuntu, Debian, CentOS y otros, el
 mkdir  nombre_del_directorio
 ```
 
-2. **Comando "cd" en Linux: Cambio de Directorio.**
+2. #### Comando "cd" en Linux: Cambio de Directorio.
 
 El comando "cd" (Change Directory) en sistemas Linux permite a los usuarios cambiar de ubicación en la jerarquía de directorios. Es una herramienta fundamental para navegar entre carpetas y acceder a ubicaciones específicas en la línea de comandos.
 
@@ -30,7 +30,7 @@ cd [ruta]
 * Regresar al directorio anterior: **cd ..**
 * Ir al directorio personal del usuario: **cd ~**
 
-3. **Comando "touch" en Linux: Creación de Archivos.**
+3. #### Comando "touch" en Linux: Creación de Archivos.
 
 El comando "touch" en sistemas Linux se utiliza para crear archivos vacíos o actualizar las marcas de tiempo de archivos existentes. Aunque su nombre implica "tocar" archivos, su funcionalidad principal es la creación y gestión de archivos.
 
@@ -40,7 +40,7 @@ touch nombre_del_archivo
 ```
 Crear un archivo vacío: `touch archivo.txt`
 
-4. **Comando "ls" en Linux: Listar Contenido de Directorios.**
+4. #### Comando "ls" en Linux: Listar Contenido de Directorios.
 
 El comando "ls" en sistemas Linux es utilizado para listar y mostrar el contenido de un directorio específico en la terminal. Proporciona información sobre archivos y subdirectorios, incluyendo nombres, permisos, tamaños y marcas de tiempo.
 
@@ -55,7 +55,7 @@ El comando "ls" en sistemas Linux es utilizado para listar y mostrar el contenid
  ls -l
  ```
 
- 5. **Comando "cp" en Linux: Copiar Archivos y Directorios.**
+ 5. #### Comando "cp" en Linux: Copiar Archivos y Directorios.
 
 El comando "cp" es esencial para duplicar archivos y directorios en Linux. Puede usarse con diferentes opciones para personalizar el proceso de copia y asegurarse de que los archivos se mantengan organizados y respaldados en el sistema.
 
@@ -86,7 +86,7 @@ cp miDocu.txt ..
 ```
 
 
-6.  **Comando "cat" en Linux: Visualización de Contenido de Archivos.**
+6. #### Comando "cat" en Linux: Visualización de Contenido de Archivos.
 
 El comando "cat" en sistemas Linux se utiliza para mostrar el contenido de uno o varios archivos en la terminal. Es una herramienta simple pero útil para examinar y visualizar el texto y contenido de los archivos.
 
@@ -99,7 +99,7 @@ cat archivo(s)
 * Mostrar el contenido de un archivo: `cat archivo.txt` 
 * Mostrar el contenido de varios archivos: `cat archivo1.txt archivo2.txt` 
 
-7. **Comando "mv" en Linux: Mover y Renombrar Archivos y Directorios.**
+7. #### Comando "mv" en Linux: Mover y Renombrar Archivos y Directorios.
 
 El comando "mv" en sistemas Linux se utiliza para mover o renombrar archivos y directorios de una ubicación a otra. Además de cambiar la ubicación, es útil para cambiar el nombre de archivos y directorios.
 
@@ -115,7 +115,7 @@ El comando "mv" en sistemas Linux se utiliza para mover o renombrar archivos y d
   mv archivo.txt ..
 ```
 
- 7. **Comando "rm" en Linux: Eliminación de Archivos y Directorios.**
+ 7. #### Comando "rm" en Linux: Eliminación de Archivos y Directorios.
 
  El comando "rm" en sistemas Linux se utiliza para eliminar archivos y directorios. Es una herramienta poderosa para eliminar contenido del sistema de archivos, pero debe usarse con precaución ya que los archivos eliminados no se envían a la Papelera y se borran de manera permanente.
 
@@ -129,7 +129,7 @@ El comando "mv" en sistemas Linux se utiliza para mover o renombrar archivos y d
   * Eliminar todos  archivos cuyos nombres comiencen con "archivo" : `rm archivo*`
   * Eliminar un directorio y su contenido:`rm -r carpeta` 
 
-  8.  **Comando "pwd" en Linux: Mostrar Directorio Actual.**
+  8. #### Comando "pwd" en Linux: Mostrar Directorio Actual.
 
   El comando "pwd" en sistemas Linux se utiliza para mostrar el directorio de trabajo actual en la terminal. Proporciona la ruta completa del directorio en el que te encuentras ubicado en ese momento.
 
